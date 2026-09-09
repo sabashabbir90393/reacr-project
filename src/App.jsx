@@ -804,9 +804,9 @@ function App() {
         className="mt-20 overflow-hidden bg-slate-950 text-white"
       >
 
-        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
 
-          <div className="grid gap-10 md:grid-cols-4">
+          <div className="grid gap-10 md:grid-cols-3">
 
             {/* BRAND */}
             <div className="md:col-span-2">
@@ -829,27 +829,66 @@ function App() {
 
               </div>
 
-              <p className="mt-5 max-w-md text-sm leading-7 text-slate-400">
-                A modern full-stack product management system designed
-                to provide a clean, responsive and powerful shopping
-                experience.
+              <p className="mt-5 max-w-lg text-sm leading-7 text-slate-400">
+                A modern product management system designed for a
+                smooth, responsive and organized shopping experience.
               </p>
 
-              <div className="mt-6 flex gap-3">
+           <div className="mt-6 flex gap-3">
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-sm font-bold text-slate-300 transition hover:bg-white/10">
-                  R
-                </div>
+  {/* Facebook */}
+  <a
+    href="#"
+    aria-label="Facebook"
+    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-600 hover:text-white hover:shadow-lg hover:shadow-blue-600/20"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-5 w-5"
+    >
+      <path d="M14 8h3V5h-3c-2.8 0-5 2.2-5 5v2H6v3h3v6h3v-6h3l1-3h-4v-2c0-1.1.9-2 2-2z" />
+    </svg>
+  </a>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-sm font-bold text-slate-300 transition hover:bg-white/10">
-                  E
-                </div>
+  {/* Instagram */}
+  <a
+    href="#"
+    aria-label="Instagram"
+    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:bg-pink-600 hover:text-white hover:shadow-lg hover:shadow-pink-600/20"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      className="h-5 w-5"
+    >
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  </a>
 
-                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-sm font-bold text-slate-300 transition hover:bg-white/10">
-                  M
-                </div>
+  {/* LinkedIn */}
+  <a
+    href="#"
+    aria-label="LinkedIn"
+    className="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/5 text-slate-300 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-700 hover:text-white hover:shadow-lg hover:shadow-blue-700/20"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className="h-5 w-5"
+    >
+      <path d="M6.5 8.5A1.75 1.75 0 1 0 6.5 5a1.75 1.75 0 0 0 0 3.5ZM5 10h3v9H5v-9Zm5 0h2.9v1.23h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.6V19h-3v-4.2c0-1-.02-2.28-1.4-2.28-1.4 0-1.62 1.1-1.62 2.2V19h-3v-9Z" />
+    </svg>
+  </a>
 
-              </div>
+</div>
 
             </div>
 
@@ -887,37 +926,18 @@ function App() {
 
             </div>
 
-            {/* TECHNOLOGY */}
-            <div>
-
-              <h4 className="text-sm font-black uppercase tracking-widest">
-                Built With
-              </h4>
-
-              <div className="mt-5 space-y-3 text-sm text-slate-400">
-
-                <p>React + Vite</p>
-                <p>Tailwind CSS</p>
-                <p>Express.js</p>
-                <p>MongoDB</p>
-                <p>REST API</p>
-
-              </div>
-
-            </div>
-
           </div>
 
-          <div className="my-10 h-px bg-white/10"></div>
+          <div className="my-8 h-px bg-white/10"></div>
 
-          <div className="flex flex-col gap-3 text-center text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:text-left">
+          <div className="flex flex-col gap-2 text-center text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:text-left">
 
             <p>
               © 2026 ShopHub. All rights reserved.
             </p>
 
             <p>
-              Designed & Developed with React, Express & MongoDB
+              Product Management System
             </p>
 
           </div>
